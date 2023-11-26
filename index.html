@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-widt, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f33d298643.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="preloader"></div>
+    <section class="header">
+      <nav>
+        <a href="index.html"><h1>COSMO</h1></a>  
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i> 
+          <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <div class="text-box">
+      <h1>We create for you</h1>
+      <P>We deliver outstanding results accross branding,web design, and digital marketing.<br> We help companies define a clear brand identity that will carry them through their financing rounds.
+       </P>
+       <a href="plan.jpg" class="hero-btn">GET A PREVIEW TO OUR PLANS</a>
+    </div>
+    </section>
+<!------------------OUR PLANS--------------------------->
+
+<section class="our-plans">
+  <h1>OUR PACKAGES</h1>
+  <p>We offer this following plans, you can choose as you like.</p>
+  <div class="row">
+    <a href="buy1.html"> <div class="plans-col">
+      <h3>LITE PACKAGE</h3>
+      <p>A basic plan for business owners who already know about eCommerce.</p>
+    </div></a>
+    <a href="buy1.html"><div class="plans-col">
+      <h3>ELITE PACKAGE</h3>
+      <p>A plan highly choosen by businesses to give there business a boost.</p>
+    </div></a>
+    <a href="buy1.html"> <div class="plans-col">
+      <h3>PREMIUM PACKAGE</h3>
+      <p>A special plan for those businesses who want to invest high and need high profit.</p>
+    </div></a>
+  </div>
+</section></a>
+<!---------------------ABOUT US--------------------------------->
+<section class="about-us">
+  <h1>See what we are giving you in our services</h1> 
+  <p>Here you can see in this video, which type of services we are offering to the costumer in our plans.</p>
+  <div class="intro">
+  <video src="intro.mp4" poster="cover.jpg" controls></video>
+  </div>
+</section>
+
+<!----------------------CONTACT US----------------------------------------->
+
+<section class="contact-us">
+<h1>Contact us for information.<br>Click on the contact us button.</h1>
+<a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+<!------------------------FOOTER-------------------------------------->
+
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p>
+   <li> CO-FOUNDER & INVESTOR:- MR.FAIZAN SAYYED</li><br><li>CO-FOUNDER & CEO:- MR.REHAN KHAN</li><br><li>DEVELOPER:- MR.PUSHKAR JADHAV</li>
+  </p>
+  <div class="icons">
+    <a href="https://www.facebook.com/profile.php?id=61553728360894&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://instagram.com/cosmoadcare?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://x.com/cosmoadcare?t=MkFiKFC_4_1ykng_m-uFFg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <p>Made with <i class="fa-solid fa-heart"></i> by cosmo</p>
+    </section>
+
+<!--------------JavaScript for toggle menu--------------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+     navLinks.style.right = "0";
+  }
+  function hideMenu(){
+     navLinks.style.right = "-200px";
+  }
+</script>
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+</script>
+</body>
+</html>
